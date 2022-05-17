@@ -1,0 +1,11 @@
+{
+  "name": "${{ values.service_name }}",
+  "version": "0.0.1",
+  "description": "${{ values.service_name }} REST API service",
+  "author": "snyk.io",
+  "private": true,
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snyk/${{ values.service_name }}"
+  }
